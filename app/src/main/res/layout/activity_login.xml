@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/txtAlert"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/background_alert"
+        android:layout_width="340dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_marginTop="40dp"
+        android:visibility="gone"
+        android:text="Tài khoản hoặc mật khẩu không chính xác "
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <TextView
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:textColor="@color/teal_700"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Login to continue"
+        android:textSize="30dp" />
+
+    <EditText
+        android:hint="Username :"
+        android:textSize="16dp"
+        android:textColor="@color/black"
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="20dp"
+        />
+
+    <EditText
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:hint="Password :"
+        android:textSize="16dp"
+        android:textColor="@color/black"
+        android:id="@+id/password"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:layout_margin="10dp"
+        android:id="@+id/btnlogin"
+        android:layout_marginTop="20dp"
+        android:text="Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/teal_700"/>
+</LinearLayout>

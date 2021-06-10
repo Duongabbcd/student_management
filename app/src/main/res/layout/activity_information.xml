@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InformationActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User Infomations : "
+        android:textSize="20dp"
+        android:background="@drawable/filled_blue"/>
+
+    <TextView
+        android:id="@+id/adusername"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_gravity="left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username  "
+        android:textSize="15dp"
+        android:background="@drawable/border_red"/>
+
+    <TextView
+        android:id="@+id/adfullname"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_gravity="left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fullname :   "
+        android:textSize="15dp"
+        android:background="@drawable/border_blue"/>
+
+
+    <TextView
+        android:id="@+id/adaddress"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_gravity="left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address :"
+        android:textSize="15dp"
+        android:background="@drawable/border_filled_blue"/>
+
+    <TextView
+        android:id="@+id/admail"
+        android:layout_marginLeft="30dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email :"
+        android:background="@drawable/border_blue"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/adphone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:text="Phone :"
+        android:textSize="15dp"
+        android:background="@drawable/border_red"/>
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Back"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_arrow_back_24"
+        android:id="@+id/mBack">
+
+    </item>
+
+    <item
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        android:title="Search"
+        app:showAsAction="always|collapseActionView"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:id="@+id/mSearch">
+
+    </item>
+
+
+    <item
+        android:id="@+id/mInfo"
+        android:title="Infomation">
+
+    </item>
+
+</menu>

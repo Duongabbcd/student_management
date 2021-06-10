@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MarkActivity"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="Add ID : "
+            android:textSize="20dp"
+            android:layout_width="144dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_good"/>
+
+        <EditText
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:id="@+id/maID"
+            android:hint="add ID here "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@drawable/boder_empty_box"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:text="Add deligence : "
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_good"/>
+
+        <EditText
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:id="@+id/deligence"
+            android:hint="add deligence here "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@drawable/boder_empty_box"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Add Midpoint 1 : "
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_good"/>
+
+        <EditText
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:id="@+id/mamid1"
+            android:hint="add midpoint 1 here "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@drawable/boder_empty_box"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="Add Midpoint 2 : "
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_good"/>
+
+        <EditText
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:id="@+id/mamid2"
+            android:hint="add midpoint 2 here "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@drawable/boder_empty_box"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Add UserId : "
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_good"
+            />
+
+        <EditText
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:id="@+id/mUsID"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/boder_empty_box"/>
+
+        <TextView
+            android:text="Add SubjectID : "
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/border_good"/>
+
+        <EditText
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:id="@+id/mSubID"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/boder_empty_box"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:text="Status for this Subject : "
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_good"
+            />
+
+        <EditText
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:id="@+id/mStatus"
+            android:text=" "
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/boder_empty_box"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/mBtn1"
+            android:text="find all"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/mBtn2"
+            android:layout_margin="5dp"
+            android:text="Add Mark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/mBtn3"
+            android:layout_margin="5dp"
+         android:text="Update Mark"
+            android:layout_width="wrap_content"
+         android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/marNo"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hay qua"/>
+
+  <TableLayout
+      android:layout_marginTop="10dp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="#0079D6"
+      android:layout_marginRight="10dp"
+      android:layout_marginLeft="10dp"
+      android:stretchColumns="1"
+      >
+
+
+     <TableRow
+         android:layout_weight="1"
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent">
+
+         <TextView
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:text="ID "
+             android:padding="5dp"
+             android:textSize="10dp"
+             android:layout_weight="1"
+             />
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:padding="5dp"
+             android:text="Subject Name : "
+             android:textSize="8dp"
+             />
+
+         <TextView
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:text="CC "
+             android:padding="5dp"
+             android:textSize="10dp"
+             android:layout_weight="1"
+             />
+
+         <TextView
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:text="Exam 1"
+             android:padding="5dp"
+             android:textSize="8dp"
+             android:layout_weight="1"
+             />
+
+         <TextView
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:text=" Exam 2"
+             android:padding="5dp"
+             android:textSize="8dp"
+             android:layout_weight="1"
+             />
+
+         <TextView
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:text="Status"
+             android:padding="5dp"
+             android:textSize="10dp"
+             android:layout_weight="1"
+             />
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:padding="5dp"
+             android:text="Full Name"
+             android:textSize="10dp"
+             android:layout_weight="1"/>
+     </TableRow>
+
+  </TableLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/markRecycle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+
+</LinearLayout>
+
+
+<!--<LinearLayout-->
+<!--android:layout_marginTop="10dp"-->
+<!--android:layout_marginBottom="10dp"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:orientation="horizontal">-->
+
+<!--<TextView-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:layout_width="wrap_content"-->
+<!--    android:text=" "-->
+<!--    android:padding="5dp"-->
+<!--    android:textSize="10dp"-->
+<!--    />-->
+
+<!--<TextView-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:layout_width="80dp"-->
+<!--    android:text="Subject Name"-->
+<!--    android:padding="5dp"-->
+<!--    android:textSize="10dp"-->
+<!--    android:layout_marginLeft="5dp"-->
+<!--    />-->
+
+<!--<TextView-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:layout_width="wrap_content"-->
+<!--    android:text="deligence"-->
+<!--    android:padding="5dp"-->
+<!--    android:textSize="10dp"-->
+<!--    android:layout_marginLeft="5dp"-->
+<!--    />-->
+
+<!--<TextView-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:layout_width="wrap_content"-->
+<!--    android:text="midpoint 1"-->
+<!--    android:padding="5dp"-->
+<!--    android:textSize="10dp"-->
+<!--    android:layout_marginLeft="5dp"-->
+<!--    />-->
+
+<!--<TextView-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:layout_width="wrap_content"-->
+<!--    android:text="midpoint 2"-->
+<!--    android:padding="5dp"-->
+<!--    android:textSize="10dp"-->
+<!--    android:layout_marginLeft="5dp"-->
+<!--    />-->
+
+<!--<TextView-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:layout_width="wrap_content"-->
+<!--    android:text="Status"-->
+<!--    android:padding="5dp"-->
+<!--    android:textSize="10dp"-->
+<!--    android:layout_marginLeft="5dp"-->
+<!--    />-->
+
+<!--<TextView-->
+<!--    android:layout_width="wrap_content"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:layout_marginLeft="5dp"-->
+<!--    android:padding="5dp"-->
+<!--    android:text="Full name"-->
+<!--    android:textSize="10dp" />-->
+
+<!--</LinearLayout>-->

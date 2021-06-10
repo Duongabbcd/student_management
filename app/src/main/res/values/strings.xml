@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Student_Management</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="facebook_app_id">1779902488856394</string>
+    <string name="fb_login_protocol_scheme">fb1779902488856394</string>
+
+    <style name="facebook_login_button">
+        <item name="android:background">@drawable/background_button</item>
+    </style>
+</resources>
